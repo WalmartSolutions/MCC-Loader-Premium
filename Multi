@@ -1,0 +1,18 @@
+os.system('cls')
+print(MinecraftMulti)
+while True:
+    os.system('cls')
+    print(MinecraftMulti)
+    gg = Write.Input("             [×] >>  ", Colors.red_to_purple, interval=0.0025)
+    if gg == '1':
+        discord_rp_mc()
+        os.system('cls')
+        print("                                             \033[1;39mLoading Minecraft Sections..")
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Minecraft').text)
+    if gg == '2':
+        discord_rp_private()
+        os.system('cls')
+        print("                                       \033[1;39mLoading Private Client Section..")
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Private').text)
+    else:
+        continue

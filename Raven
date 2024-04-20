@@ -1,0 +1,85 @@
+raven = """\033[1;39m
+
+                                     ██████╗░░█████╗░██╗░░░██╗███████╗███╗░░██╗
+                                     ██╔══██╗██╔══██╗██║░░░██║██╔════╝████╗░██║
+                                     ██████╔╝███████║╚██╗░██╔╝█████╗░░██╔██╗██║
+                                     ██╔══██╗██╔══██║░╚████╔╝░██╔══╝░░██║╚████║
+                                     ██║░░██║██║░░██║░░╚██╔╝░░███████╗██║░╚███║
+                                     ╚═╝░░╚═╝╚═╝░░╚═╝░░░╚═╝░░░╚══════╝╚═╝░░╚══╝
+\033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\033[1;39m ━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━━
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+       \033[1;39m┌─────────────────────────────────────────── Archive ────────────────────────────────────────────┐            
+       \033[1;34m║                           \033[1;39m  Version          : \033[1;34m Premium                                        \033[1;34m║
+       \033[1;34m║                           \033[1;39m  Discord          : \033[0m discord.gg/chiterl                             \033[1;34m║         
+       \033[1;34m║                           \033[1;39m  Youtube          : \033[1;31m That Vape User ☊                               \033[1;34m║
+       \033[1;34m║                           \033[1;39m  Status           : \033[1;34m Beta                                           \033[1;34m║
+       \033[1;39m└────────────────────────────────────────────────────────────────────────────────────────────────┘
+   \033[0;31m                               Create a ticket if u found a client that not working.
+\033[1;97m= = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = = =
+
+                                                \033[1;39m┌───────────────────┐         
+                                                \033[1;34m║    \033[1;39m   Raven       \033[1;34m║          
+                                                \033[1;39m└───────────────────┘          
+\033[1;31m[\033[1;39m-\033[1;31m] \033[1;34mBack to previous page 
+\033[1;31m[\033[1;39mB3\033[1;31m] \033[1;34mRaven B3 
+\033[1;31m[\033[1;39mB+\033[1;31m] \033[1;34mRaven B+ 
+\033[1;31m[\033[1;39mB++\033[1;31m] \033[1;34mRaven B++ 
+\033[1;31m[\033[1;39mB+++\033[1;31m] \033[1;34mRaven B+++ \033[1;31m[\033[1;33mUpdate 09/09/2023\033[1;31m] 
+\033[1;31m[\033[1;39mB++R\033[1;31m] \033[1;34mRaven B++ Reborn 
+\033[1;31m[\033[1;39mFB4\033[1;31m] \033[1;34mRaven B4 \033[1;31m[\033[1;33mNOT REAL B4\033[1;31m] 
+\033[1;31m[\033[1;39mS1\033[1;31m] \033[1;34mRaven S1 
+\033[1;31m[\033[1;39mX\033[1;31m] \033[1;34mRaven X \033[1;31m[\033[1;33mUse at your own risk\033[1;31m] 
+\033[1;31m[\033[1;39mBX\033[1;31m] \033[1;34mRaven BX 
+\033[1;31m[\033[1;39mN+\033[1;31m] \033[1;34mRaven N+ \033[1;31m[\033[1;33mHaven't check yet\033[1;31m] 
+\033[1;31m[\033[1;39mL\033[1;31m] \033[1;34mRaven N+ Lite
+\033[1;31m[\033[1;39mB-\033[1;31m] \033[1;34mRaven B- \033[1;31m[\033[1;33mUpdate 04/12/2023\033[1;31m] 
+\033[1;31m[\033[1;39mB4\033[1;31m] \033[1;34mRaven B4 \033[1;31m[\033[1;33mOutdated\033[1;31m] 
+\033[1;31m[\033[1;39mA\033[1;31m] \033[1;34mRaven A \033[1;31m[\033[1;33mMassive skids\033[1;31m] 
+\033[1;31m[\033[1;39mS+\033[1;31m] \033[1;34mRaven S+
+    """
+print(raven)
+while True:
+    os.system('cls')
+    print(raven)
+    chon = input('                                               \033[1;39m[\033[1;31m×\033[1;39m] \033[1;39m>> ')
+    if chon == '-':
+        os.system('cls')
+        print("Leaving Raven")
+        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Minecraft').text)
+    if chon == 'B1':
+        webbrowser.open_new("https://www.mediafire.com/file/dz2qqfvx8rv4s6s/[1.7.10]_Keystrokes_V4.jar/file")
+    if chon == 'B2':
+        webbrowser.open_new("https://www.mediafire.com/file/frqynrmi3qh9atn/raven_b2.jar/file")
+    if chon == 'B3':
+        webbrowser.open_new("https://www.mediafire.com/file/r2x3e7nfq88v849/ravenb3.zip/file")
+    if chon == 'B+':
+        webbrowser.open_new("https://github.com/Kopamed/Raven-bPLUS/releases/download/Stable1.0.26/1.8.9.BetterKeystrokes.V-1.2.jar")
+    if chon == 'B++':
+        webbrowser.open_new("https://k-ov.github.io/download/")
+    if chon == 'B+++':
+        webbrowser.open_new("https://cdn.discordapp.com/attachments/1152589174810103818/1157414961774088282/Sinner.jar")
+    if chon == 'B++R':
+        webbrowser.open_new("https://cdn.discordapp.com/attachments/1138115213447671932/1145748794114326569/RavenBReborn.jar")
+    if chon == 'FB4':
+        webbrowser.open_new("https://www.mediafire.com/file/nb0rnnb7mqmkkt8/FakeB4.zip/file")
+    if chon == 'S1':
+        webbrowser.open_new("https://www.mediafire.com/file/ftv4k9aep23zagp/1.8.9.Raven-S.1.jar/file")
+    if chon == 'X':
+        webbrowser.open_new("https://www.mediafire.com/file/0hkctqy63j5hd4r/X.zip/file")
+    if chon == 'BX':
+        webbrowser.open_new("https://www.mediafire.com/file/720dih1uhqu1ri7/[1.8.9]+BetterKeystrokes+V-1.2.jar/file")
+    if chon == 'N+':
+        webbrowser.open_new("https://cdn.discordapp.com/attachments/1013680734122287164/1037892344319578142/1.8.9_Raven-_N.jar")
+    if chon == 'L':
+        webbrowser.open_new("https://www.mediafire.com/file/78hs3x5hs6imefw/Raven+N.zip/file")
+    if chon == 'B-':
+        webbrowser.open_new("https://github.com/WalmartSolutions/RavenB-Latest")
+    if chon == 'B4':
+        webbrowser.open_new("https://anotepad.com/notes/j53d73qn")
+    if chon == 'A':
+        webbrowser.open_new("https://cdn.discordapp.com/attachments/1152589174810103818/1165317912068890776/b5.jar?ex=65870360&is=65748e60&hm=5dcdf41f1046800237921099b580554a4e44737fbb5f0823787b659072b42fb3&")
+    if chon == 'S+':
+        webbrowser.open_new("https://www.mediafire.com/file/6zlm2zahvmq3sit/Raven+S+.zip/file")
+    else:
+        continue
