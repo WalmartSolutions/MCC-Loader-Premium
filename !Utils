@@ -15,10 +15,10 @@ while True:
     if gg == '-':
         os.system('cls')
         print("                                               \033[1;39mLeaving...")
-        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/k/main/Multi').text)
+        exec(requests.get('https://raw.githubusercontent.com/WalmartSolutions/MCC-Loader-Premium/main/Multi').text)
     if gg == '3':
         os.system('cls')
         print("                                               \033[1;39mLaunching...")
-        exec(requests.get('https://raw.githubusercontent.com/VjpProDaiIa/vjp231/main/PyClickerTrigger').text)
+        exec(requests.get('https://raw.githubusercontent.com/WalmartSolutions/MCC-Loader-Premium/main/!PyClickerTrigger(MCC-LOADER)').text)
     else:
         continue
