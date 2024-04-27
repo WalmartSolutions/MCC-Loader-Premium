@@ -1,5 +1,7 @@
 <h1 align="center">MCC Loader Premium (Exported)</h1>
 
+"Master Chief Collection" - etho
+
 **Trillium INC: https://discord.gg/vzXzFpv2gk**
 
 **If a password is required in a ZIP/RAR file, it is "mccloader"**
